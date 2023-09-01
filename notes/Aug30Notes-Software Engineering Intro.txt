@@ -1,0 +1,151 @@
+Topics
+    - assignment 2
+    - Software engineering introduction
+        - Waterfall / Sequential
+        - Agile Methodology
+        - Hybrid
+    - What is software engineering?
+    - Software vulnerabilities
+        - Log4Shell RCE exploit
+    - Traditional: Waterfall/Sequential
+    - Agile
+        -Scrum
+        - Kanban
+        - Extreme Programming (XP)
+    -Hybrid (Agile / Waterfall hybrid)
+    -Waterfall (Sequential)
+        - Introduced in the 70's 
+        - Came from manufacturing and construction industries
+        - provides centralized and standardized approach
+
+        - Software product conception, dev, delivery, support, obselescence progress through a series of project phases
+        - Steps
+            - Requirements
+            - Design
+            - Implementation
+            - Verification
+            - Maintenance
+        - Can have more or less phases depending on the company, but generally same structure
+                -Each phase begins after management grants approval 
+
+        - Each phase has set of well def docs which should stand alone & not need to ref the prev. phase docs
+        - Phases
+            - Phase 0
+                - Genereate Ideas
+                - Kess formal, not one of the formal phases, no formal docs
+                - Articu;ates a sol. to a customer proble,
+                - May be initiated by anyone
+                - Thought Process   
+                    - Problem solving
+                    - who buys the solution
+                    - complexity
+                        - Does it fit core dev competencies?
+                    - marketing
+                    - and general discussion on probability of success
+            - Phase 1
+                - Customer req's are gathered
+                - The proposed product definition is refined
+                - A list is created of funct. needs, wants and niceties
+                - Should describe functionality and not be tech biased about how to Implementation
+                - Current tech limitations should not hinder this process IE req. should not be discounted if it appears complex to implement, saved for P2
+                - for dev products it is appropriate to discuss internal tech. arch. in this doc as is a core customer feature of product
+                - Deliverable: product req's doc (PRD) that fully describes the sol functionally w/o tech bias.
+                - Requirements
+                    - Gateway to next phase
+                    - PRD will be dist. and discussed w/ key stakeholders
+                        - Several iterations will be developed
+                    - After the PRD is ready for management approval to move to next phase, checkpoint meeting will be held w/ one rep from each corporate function (IE engineering, marketing, etc)
+                        - At this meeting, one of the follwoing happens
+                            - Approval will be given to move to phase 2
+                            - Team will be sent back to evolve proposal, get answers to questions, explore new Ideas
+                            - Project will be terminated
+            - Phase 2: Design
+                - Where the project gets real and engineering studies the funct. requirements in the PRD and reports back what it would take to dev it
+                - Prod. req's are translated into software design. At the end of P2, the project gets a greenlgiht to proceed w/ dev and engineering management commits to a sched.
+                - Phase 2 docs should stand alone, and the reviewer shoudltn need to read prev. phase docs to understand. These docs are very thorough and detailed. Anticipated Q's should be discussed and answered in the docs.
+                - Even thoguh most projects that reach the end of P2 will move into dev, this is when company managment must make the tough decision to cancel projects that do not have a good chance of market success
+                - Also note that many of P2 Deliv's are prelim. and will be completed and cont. corrected during P3 after the commitment to move into dev. has been made.
+                - Deliv's at end of design phase should include 
+                    - Project Planning 
+                        - Overviw, Obj, scope, deliv, est. resources
+                        - assumptions and dependencies, test plans, doc plans support plans
+                    - marketing document
+                        -
+                - Design Document: Comprehensive doc. that includes: 
+                - Overview of how product works. Intended audience is new dev on project and support staff. Content of section may be used to create a technical white paper for prospective customers.
+                - Detailed Arch.
+                -Feat. Classify as one of the follwoing
+                    -Musts: Must be implemented for project to be released
+                    -Wants: nice to have if they dont make this release may be in next
+                    -Out of scope: Explicitly will not be in this release
+            - Gateway to next phase:
+            - Docs will be dist. and siscussed with key stakeholders, several iterations will normally be dev'decision
+            - After the project is ready for management appr. to move to P3 ( implementation) a checkpoint meeting will be held w/ one rep from each corp. function ( business, management, ETC) at this meeting one of the following happens
+                - Approval will be given to move to P3
+                - Team will be sent back to evolve proposal, get answers to q's
+                - Proj will be terminated 
+            -
+                
+            - Phase 3: Implementation
+                - Engineering Develops, tests and doc's the product
+                - Marketing creates the marketing deliv's, Marketing work maty not need to bein until much of the software dev has been completed.
+                - Some missing funct. will be uncovered here if we didnt do a complte jub in P1 and 2
+                - Interim checkpoint meetings between engineering marketing and management should be held to det. how to address this in the classical balance of feats, sched, resources
+                - ALL CHANGES TO PRODUCT SPECIFICATIONS DURING THIS PHASE SHOULD BE CONCIOUS DECISIONS W/ EACH FUNCT. AREA ASSESSING THE IMPACT.
+                - Milestones during this phase may include:
+                    - Functional complete: all req's have been coded althoguh they arent functioning properly yet. no new functionality added.
+                - Deliverables may include:
+                    - Master source code tree, ready for manufacturing to build customer distributions.
+                    - Results of customer Testing- Final versions of as built design documents
+                    - Prod. Doc.
+                    - Sales Tools ( IE data sheet, web pages, etc)
+                    - Support Tools *
+                    - Customer Training Materials *
+                        - * If needed
+                - Gateway to the next phase:
+                    - After the proj is ready for management approval a checkpoint meeting will be held with one rep from each corp. function ( SEE ABOVE) at this meeting one of the following will happen:
+                        -
+            -Phase 4: Veerigication
+                - Might be done as part of P3 rather than a sep. phase
+                - Testing
+                - Eval. to ensure the prod. runs as intended and meets customer needs
+                - Sec. testing ( sec. should be addressed throughout the SDLC but often is not)
+                - Hopefully these steps were done in P3
+            - Phase 5: Maintenance
+                - Active supported product
+                - Software has been released
+                - Product is being actively sold and shipped to customers
+                - Support team provides support and patches
+                - Dev team and support team work together to maintain prod. to fix critical and serious defects
+                - Marketing team cont. to enhance marketing Materials
+            - FInal Phase: Obsolescence
+                - Prod. sales are declining and/or product is being replaced w/ another
+                - Management decides to obsolete the prod.
+                - det. obsolescene strategy and plans
+                - Deliverables: Obsolescence plan. Very short and simple doc. used primarily as a comm. Tools
+                - Prod. No longer sold and supported. Archival copies are stored following standard procedures
+        - When to use Waterfall Project Management:
+            - Waterfall methodology is best suited for proj's that are:
+                - Clearly defined and req structure and strict deadlines
+                    - Req are relatively stable
+                - The proj. scope and req's should be set 
+                    - (phases of dev can be planned up front)
+                - The tech used is well understood by the project team members
+                - w/ little room for changes it is unsuitable for proj's that involve unexplored territory and uncertainty
+                - IE it;s great for pro's that have been done many times over
+            
+    - Agile
+        - Steps
+            - Initial Planning
+            - Planning
+            - Requirements
+            - Analysis
+            - Design
+            - Implementation
+            - Testing
+            - Deployment
+            - Evaluation
+        - Process is repeated as a cycle
+    - 
+        
+Project Ideas: Hiking/Activity Logbook with functionality of "gamifying", weekly stats, comparison with friends, and data visualization
